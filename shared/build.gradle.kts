@@ -8,7 +8,6 @@ plugins {
 }
 
 kotlin {
-    
     android {
         namespace = "com.fineteklabs.spaceutorial.shared"
         compileSdk = libs.versions.android.compileSdk.get().toInt()
